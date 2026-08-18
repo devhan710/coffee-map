@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "pildong-coffee",
+    "name": "필동커피",
+    "address": "서울 중구 필동3가 44-3",
+    "lat": 37.5587084,
+    "lng": 126.9962811,
+    "dong": "필동",
+    "signature": {
+      "name": "필동라떼",
+      "evidenceCount": 2,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "충무로라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=aJ7zyRlUd7qu",
+        "title": "필동커피 - 동국대 수제쿠키, 로스팅 맛집",
+        "kind": "menu",
+        "note": "필동라떼를 수제 카라멜 크림으로 만든 '필동 시그니처 커피'로 명시한다. 충무로라떼도 시그니처로 표기한다."
+      },
+      {
+        "url": "https://conyplace.com/%ed%95%84%eb%8f%99%ec%bb%a4%ed%94%bc-%ec%b6%a9%eb%ac%b4%eb%a1%9c%ec%9d%98-%ec%95%84%eb%8a%91%ed%95%9c-%ec%b9%b4%ed%8e%98/",
+        "title": "필동커피: 충무로의 아늑한 카페",
+        "kind": "review",
+        "note": "필동3가 44-3 주소를 확인하며 필동라떼가 사랑받는 메뉴라고 소개한다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 필동라떼는 공식 메뉴 설명상 시그니처가 명확해 유지 가능하다."
+    },
+    "photoThumb": "https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f320_320&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240604_123%2F17175077207246uYnR_JPEG%2F%25C7%25CA%25B5%25BF%25B6%25F3%25B6%25BC.jpg",
+    "photoSourceUrl": "https://www.diningcode.com/profile.php?rid=aJ7zyRlUd7qu",
+    "photoKind": "menu-item"
+  },
+  {
+    "id": "strength-dongguk",
+    "name": "스트렝스커피 동국대점",
+    "address": "서울 중구 필동로 31-1",
+    "lat": 37.5587328,
+    "lng": 126.9962964,
+    "dong": "필동",
+    "signature": {
+      "name": "말차슈페너",
+      "evidenceCount": 3,
+      "label": "말차"
+    },
+    "candidates": [
+      {
+        "name": "말차라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=OIDtFIhKifJ9",
+        "title": "스트렝스커피 동국대점 - 동국대 커피, 쿠키 맛집",
+        "kind": "review",
+        "note": "필동로 31-1 동국대점 방문자가 말차슈페너를 직접 주문하고 크림의 맛을 긍정적으로 평가했다."
+      },
+      {
+        "url": "https://app.passorder.co.kr/advance/5c26bc95-a71f-4119-95fd-e4f0fef56021",
+        "title": "스트렝스커피 혜화점 메뉴",
+        "kind": "menu",
+        "note": "브랜드 메뉴에서 말차슈페너를 특제 크림을 올린 '스트렝스커피의 야심작'으로 설명한다. 말차라떼에는 시그니처 말차소스를 사용한다고 명시한다."
+      },
+      {
+        "url": "https://junggutongsin.com/archives/20955",
+        "title": "STRENGTH 동국대점 오픈",
+        "kind": "search",
+        "note": "동국대점 주소가 서울 중구 필동로 31-1임을 확인한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "말차슈페너는 지점 방문 근거와 브랜드 메뉴 강조 문구가 모두 있으나, 동국대점 공식 BEST 표기는 확인되지 않았다."
+    }
+  },
+  {
+    "id": "omnyom",
+    "name": "옴뇸뇸커피",
+    "address": "서울 중구 필동로 30-1",
+    "lat": 37.5589739,
+    "lng": 126.9960262,
+    "dong": "필동",
+    "signature": {
+      "name": "솔티크림라떼",
+      "evidenceCount": 1,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "아샷추"
+      },
+      {
+        "name": "코코피스무디"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1079267006/menu/list",
+        "title": "옴뇸뇸커피 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "사장님이 등록한 대표 메뉴가 아샷추, 솔티크림라떼, 코코피스무디다. 솔티크림라떼 설명에 '옴뇸뇸시그니처'라고 적혀 있다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스 주소는 필동로 30-1이다. 대표 배지가 세 개라 설명에 시그니처라고 적힌 솔티크림라떼를 대표로 두고, 나머지 둘을 후보로 뒀다."
+    }
+  },
+  {
+    "id": "iriro",
+    "name": "이리로",
+    "address": "서울 중구 필동로1길 7",
+    "lat": 37.5586726,
+    "lng": 126.9965853,
+    "dong": "필동",
+    "signature": {
+      "name": "수박주스",
+      "evidenceCount": 1,
+      "label": "기타"
+    },
+    "candidates": [
+      {
+        "name": "크림딸기라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1652055377/menu/list",
+        "title": "이리로 충무로카페 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "사장님이 등록한 대표 메뉴는 수박주스다. 설명에 직접 씨를 빼고 만든 생과일 주스라고 적혀 있다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스 상호는 '이리로 충무로카페'이며 주소 필동로1길 7과 일치한다."
+    }
+  },
+  {
+    "id": "hebe",
+    "name": "헤베커피",
+    "address": "서울 중구 필동로 32 낙원빌딩 1층",
+    "lat": 37.5587761,
+    "lng": 126.9960135,
+    "dong": "필동",
+    "signature": {
+      "name": "헤베커피",
+      "evidenceCount": 1,
+      "label": "기타"
+    },
+    "candidates": [
+      {
+        "name": "브루잉 커피"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1375527801/menu/list",
+        "title": "헤베커피 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "사장님이 등록한 대표 메뉴는 브루잉 커피와 헤베커피다. 헤베커피 설명에 '시그니쳐 음료입니다'라고 적혀 있다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "지번 필동2가 98-1과 도로명 필동로 32가 같은 매장이다. 대표 배지가 둘이라 시그니처라고 적힌 헤베커피를 대표로 두고, 브루잉 커피를 후보로 뒀다."
+    }
+  },
+  {
+    "id": "sector-chungmuro",
+    "name": "섹터커피 충무로점",
+    "address": "서울 중구 퇴계로 198",
+    "lat": 37.5609424,
+    "lng": 126.9939263,
+    "dong": "충무로",
+    "signature": {
+      "name": "섹터크림라떼",
+      "evidenceCount": 3,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "모카 아포가토"
+      },
+      {
+        "name": "바나나 푸딩"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://polle.com/place/3riLWR/%EC%84%B9%ED%84%B0%20%EC%BB%A4%ED%94%BC%EB%B0%94",
+        "title": "섹터 커피바 - 충무로 카페",
+        "kind": "review",
+        "note": "퇴계로 198 주소의 다수 리뷰에서 섹터크림라테를 반복 주문·추천하며 한 리뷰는 이를 명시적으로 시그니처라고 부른다."
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=9AJp3eYKqHYH",
+        "title": "섹터 커피 충무로점",
+        "kind": "review",
+        "note": "충무로점 주소를 확인하며 섹터크림라테와 모카 아포가토를 추천 메뉴로 제시한다."
+      },
+      {
+        "url": "https://www.siksinhot.com/P/1273764",
+        "title": "섹터 커피 바 - 서울 중구 필동2가",
+        "kind": "menu",
+        "note": "섹터 크림 라테, 모카 아포가토, 바나나 푸딩 등 실제 메뉴와 가격을 확인할 수 있다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "정확한 주소에서 시그니처 표기와 여러 실제 후기의 반복 추천이 모두 확인되어 현재 값을 유지할 수 있다."
+    }
+  },
+  {
+    "id": "cashmere",
+    "name": "캐시미어커피",
+    "address": "서울 중구 충무로3가 28-1",
+    "lat": 37.5629937,
+    "lng": 126.9924041,
+    "dong": "충무로",
+    "signature": {
+      "name": "Butter Caramel Latte",
+      "evidenceCount": 2,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "하우스 카푸치노"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=1kKho4yf3Fti",
+        "title": "캐시미어커피 - 충무로 커피, 카푸치노 맛집",
+        "kind": "menu",
+        "note": "Butter Caramel Latte를 '캐시미어의 시그니처 음료'로 명시한다."
+      },
+      {
+        "url": "https://polle.com/place/1O1OFd/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4%20%EC%BB%A4%ED%94%BC",
+        "title": "캐시미어 커피 - 충무로 카페",
+        "kind": "review",
+        "note": "서울 중구 수표로6길 33-2 매장으로 확인되며 하우스 카푸치노 추천 후기가 반복된다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "하우스 카푸치노의 후기 인기는 높지만, 메뉴에 명시적으로 SIGNATURE라고 적힌 Butter Caramel Latte를 우선 판정했다."
+    }
+  },
+  {
+    "id": "fred-chungmuro",
+    "name": "프레드커피하우스 충무로점",
+    "address": "서울 중구 퇴계로27길 3",
+    "lat": 37.5614,
+    "lng": 126.9939,
+    "dong": "충무로",
+    "signature": {
+      "name": "충무 라떼",
+      "evidenceCount": 2,
+      "label": "라떼"
+    },
+    "candidates": [],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=GhVj7fabOeTY",
+        "title": "프레드커피하우스 충무로점",
+        "kind": "menu",
+        "note": "메뉴명이 '[SIGNATURE] 충무 라떼'로 명시되어 있다."
+      },
+      {
+        "url": "https://app.passorder.co.kr/normal/a4728763-0197-49b8-b01f-515ab771036b",
+        "title": "프레드커피하우스 충무로점 | 패스오더",
+        "kind": "menu",
+        "note": "충무라떼를 인기 메뉴로 소개하며 숙성 우유의 고소함과 은은한 단맛을 설명한다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 데이터가 타당하다. 서울 중구 충무로3가 58-2, 전화번호 02-6080-7772로 지점이 대조된다."
+    }
+  },
+  {
+    "id": "rewire",
+    "name": "리와이어커피",
+    "address": "서울 중구 수표로6길 24-1",
+    "lat": 37.5627829,
+    "lng": 126.9917623,
+    "dong": "충무로",
+    "signature": {
+      "name": "카페라떼",
+      "evidenceCount": 3,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "리와이어크림커피"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=JmbtN4JSj3Au",
+        "title": "리와이어커피 - 충무로 커피, 라떼 맛집",
+        "kind": "review",
+        "note": "카페라떼가 진하고 고소해 재방문 의사가 있다는 실제 후기가 확인된다."
+      },
+      {
+        "url": "https://conyplace.com/%eb%a6%ac%ec%99%80%ec%9d%b4%ec%96%b4%ec%bb%a4%ed%94%bc-%ec%b6%a9%eb%ac%b4%eb%a1%9c%ec%9d%98-%ec%bb%a4%ed%94%bc-%ec%a0%84%eb%ac%b8%ec%a0%90/",
+        "title": "리와이어커피: 충무로의 커피 전문점",
+        "kind": "review",
+        "note": "라떼와 필터커피로 유명한 매장이라고 소개한다."
+      },
+      {
+        "url": "https://app.passorder.co.kr/advance/ebe60f89-b551-48cf-b1af-ae791aec6ac2",
+        "title": "리와이어커피 | 패스오더",
+        "kind": "menu",
+        "note": "리와이어크림커피와 카페라떼의 현행 메뉴 설명을 제공한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "서울 중구 수표로6길 24-1과 일치한다. 명시적인 SIGNATURE 표기는 찾지 못했으며, 카페라떼가 독립 자료에서 반복 추천된다."
+    }
+  },
+  {
+    "id": "nothing-coffee",
+    "name": "노띵커피",
+    "address": "서울 중구 충무로4길 8",
+    "lat": 37.5615,
+    "lng": 126.9941,
+    "dong": "충무로",
+    "signature": {
+      "name": "핸드드립 커피",
+      "evidenceCount": 3,
+      "label": "핸드드립"
+    },
+    "candidates": [
+      {
+        "name": "사블레 라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=Pdftn9bZnag0",
+        "title": "노띵커피 - 동국대 커피, 카페 맛집",
+        "kind": "review",
+        "note": "충무로 매장의 싱글오리진 핸드드립과 전용 브루어, 원두 선택 경험을 집중적으로 추천한다."
+      },
+      {
+        "url": "https://www.siksinhot.com/P/585680",
+        "title": "노띵커피 - 서울 중구 묵정동",
+        "kind": "menu",
+        "note": "핸드드립 커피와 사블레라떼 등 현행 메뉴를 제공한다."
+      },
+      {
+        "url": "https://conyplace.com/%eb%85%b8%eb%9d%b5%ec%bb%a4%ed%94%bc-%ec%84%9c%ec%9a%b8-%ec%a4%91%ea%b5%ac-%ed%87%b4%ea%b3%84%eb%a1%9c%ec%9d%98-%eb%8f%85%ed%8a%b9%ed%95%9c-%ec%b9%b4%ed%8e%98/",
+        "title": "노띵커피: 서울 중구 퇴계로의 독특한 카페",
+        "kind": "review",
+        "note": "직접 로스팅한 원두의 핸드드립을 이 카페의 시그니처로 소개한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "서울 중구 충무로4길 8 매장으로 대조했다. 핸드드립이 매장의 핵심 정체성과 반복 추천에 가장 부합한다."
+    }
+  },
+  {
+    "id": "woody-chungmuro",
+    "name": "카페우디 충무로점",
+    "address": "서울 중구 퇴계로27길 39",
+    "lat": 37.5629582,
+    "lng": 126.9912055,
+    "dong": "충무로",
+    "signature": {
+      "name": "밀크티",
+      "evidenceCount": 3,
+      "label": "밀크티"
+    },
+    "candidates": [
+      {
+        "name": "솔티우롱 밀크티"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=7SWyHO6Lealc",
+        "title": "카페 우디 - 충무로 밀크티, 우유 맛집",
+        "kind": "review",
+        "note": "밀크티를 주력 메뉴로 표시하며 솔티우롱 추천 후기도 확인된다."
+      },
+      {
+        "url": "https://conyplace.com/%ec%b9%b4%ed%8e%98-%ec%9a%b0%eb%94%94-%eb%8b%a4%ec%96%91%ed%95%9c-%eb%b0%80%ed%81%ac%ed%8b%b0%ec%99%80-%ed%95%b8%eb%93%9c%eb%93%9c%eb%a6%bd-%ec%bb%a4%ed%94%bc%ec%9d%98-%ec%a1%b0%ed%99%94/",
+        "title": "카페 우디: 다양한 밀크티와 핸드드립 커피의 조화",
+        "kind": "review",
+        "note": "10종 이상의 밀크티와 우유 얼음을 매장의 특징으로 소개한다."
+      },
+      {
+        "url": "http://onkorea.co.kr/sjung/pZ0NpJds6a00",
+        "title": "카페우디 충무로점",
+        "kind": "search",
+        "note": "주소를 서울 중구 퇴계로27길 39, 충무로3가 24-7로 확인한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "'우디라떼'라는 메뉴는 확인되지 않았다. 특정 한 종류보다 다양한 밀크티 라인업 자체가 대표 메뉴로 반복 소개된다."
+    }
+  },
+  {
+    "id": "eulji-louise",
+    "name": "을지루이스",
+    "address": "서울 중구 충무로2가 12-8",
+    "lat": 37.5619828,
+    "lng": 126.9879623,
+    "dong": "충무로",
+    "signature": {
+      "name": "스콘",
+      "evidenceCount": 3,
+      "label": "디저트"
+    },
+    "candidates": [
+      {
+        "name": "스티키 토피 푸딩"
+      },
+      {
+        "name": "잉글리시 브렉퍼스트 티"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://polle.com/place/4kTCgi/%EC%9D%84%EC%A7%80%20%EB%A3%A8%EC%9D%B4%EC%8A%A4",
+        "title": "을지 루이스 - 충무로 카페/바",
+        "kind": "review",
+        "note": "스콘, 스티키 토피 푸딩과 우유·각설탕을 직접 넣는 차 경험이 여러 후기에서 반복된다."
+      },
+      {
+        "url": "https://bonitalavida.starry-moment.com/entry/%EC%9D%84%EC%A7%80%EB%A1%9C-%EC%9D%84%EC%A7%80%EB%A3%A8%EC%9D%B4%EC%8A%A4",
+        "title": "을지루이스 영국식 찻집·디저트 카페",
+        "kind": "review",
+        "note": "메뉴판의 잉글리시 브렉퍼스트 티, 스콘, 스티키 토피 푸딩을 확인할 수 있다."
+      },
+      {
+        "url": "https://www.daangn.com/kr/local-profile/%EC%9D%84%EC%A7%80%EB%A3%A8%EC%9D%B4%EC%8A%A4-sp6qy3rck6v3/",
+        "title": "을지루이스 | 당근 동네업체",
+        "kind": "search",
+        "note": "현재 주소를 서울 중구 수표로 20, 충무로3가로 표시한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "기재된 충무로2가 12-8이 아니라 현재 자료는 수표로 20을 가리켜 이전한 것으로 판단된다. '잉글리시 밀크티'라는 독립 메뉴는 확인되지 않았고, 잉글리시 브렉퍼스트 티에 우유와 각설탕을 직접 넣는 방식이다."
+    }
+  },
+  {
+    "id": "montevi",
+    "name": "몬떼비 충무로점",
+    "address": "서울 중구 수표로2길 15",
+    "lat": 37.562229,
+    "lng": 126.991346,
+    "dong": "충무로",
+    "signature": null,
+    "candidates": [
+      {
+        "name": "몬테비 라떼"
+      },
+      {
+        "name": "조던23"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1241730889/menu/list",
+        "title": "몬떼비서울 충무로점 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "사장님이 등록한 대표 메뉴는 '[패스오더전용] 100원 아메리카노'다. 패스오더 앱 설치 이벤트 상품이다."
+      }
+    ],
+    "verification": {
+      "confidence": "unverified",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스에는 영업 중으로 보이지만, 사장님이 올린 대표는 100원 이벤트 아메리카노라 집 대표 메뉴로 쓰지 않았다."
+    }
+  },
+  {
+    "id": "affair-jangchung",
+    "name": "어페어커피 장충점",
+    "address": "서울 중구 쌍림동 244-5",
+    "lat": 37.5621469,
+    "lng": 127.0062235,
+    "dong": "장충",
+    "signature": {
+      "name": "시나몬 라떼",
+      "evidenceCount": 3,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "라즈베리 어페어"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://conyplace.com/%ec%96%b4%ed%8e%98%ec%96%b4%ec%bb%a4%ed%94%bc-%ec%9e%a5%ec%b6%a9%ec%a0%90-%eb%8f%99%eb%8c%80%ec%9e%85%ea%b5%ac-ddp-%ec%bb%a4%ed%94%bc-%eb%a7%9b%ec%a7%91/",
+        "title": "어페어커피 장충점",
+        "kind": "review",
+        "note": "장충점의 시그니처로 시나몬커피와 라즈베리어페어를 함께 소개한다."
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=bBIdcUJIifKZ",
+        "title": "어페어커피 - 성수점 메뉴",
+        "kind": "menu",
+        "note": "브랜드 메뉴의 정확한 명칭을 '시나몬 라떼'로 표시하고 라즈베리 어페어도 함께 확인된다."
+      },
+      {
+        "url": "https://bwissue.com/searchjob/2609532",
+        "title": "어페어커피 장충점 바리스타 채용",
+        "kind": "official",
+        "note": "매장이 직접 작성한 글에서 장충점을 2호점으로 소개하고 주소를 서울 중구 장충단로 193-1로 확인한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 값의 '시나몬커피'는 실제 메뉴명인 '시나몬 라떼'로 정규화하는 것이 적절하다. 라즈베리 어페어도 장충점 시그니처로 함께 언급된다."
+    }
+  },
+  {
+    "id": "onpoint",
+    "name": "카페온포인트",
+    "address": "서울 중구 오장동 69-50",
+    "lat": 37.5645656,
+    "lng": 126.9992734,
+    "dong": "오장",
+    "signature": null,
+    "candidates": [],
+    "evidence": [
+      {
+        "url": "https://map.naver.com/p/entry/place/1023640884?placePath=%2Fmenu",
+        "title": "카페온포인트 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "마른내로 101-1(오장동 69-50) 매장의 등록 메뉴 20개에 대표 배지가 없다."
+      }
+    ],
+    "verification": {
+      "confidence": "unverified",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스에 메뉴는 있지만 사장님이 지정한 대표 메뉴는 없다."
+    }
+  },
+  {
+    "id": "hanyakbang",
+    "name": "커피한약방",
+    "address": "서울 중구 삼일대로12길 16-6",
+    "lat": 37.5665774,
+    "lng": 126.9886173,
+    "dong": "을지로",
+    "signature": {
+      "name": "필터커피",
+      "evidenceCount": 3,
+      "label": "핸드드립"
+    },
+    "candidates": [
+      {
+        "name": "필터 스페셜"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://coffeehanyakbang.com/about",
+        "title": "커피한약방&혜민당 브랜드 스토리",
+        "kind": "official",
+        "note": "공식 사이트가 을지로점 주소를 삼일대로12길 16-6으로 안내하며 현재 영업시간을 게시한다."
+      },
+      {
+        "url": "https://info.koreacharts.com/tour/3318451/contents.html",
+        "title": "커피한약방 — 한국관광공사 기반 관광정보",
+        "kind": "menu",
+        "note": "2026년 8월 18일 기준 대표메뉴를 필터커피로 명시한다."
+      },
+      {
+        "url": "https://bwissue.com/s_roasters/280603",
+        "title": "블랙워터이슈 — 을지로 커피한약방",
+        "kind": "review",
+        "note": "아메리카노 대신 핸드드립 방식의 필터커피를 기본 제공한다고 설명한다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "주소와 현재 영업을 공식 사이트에서 확인했다. 필터커피는 관광정보의 명시적 대표메뉴이며 전문 매체 설명과도 일치한다."
+    }
+  },
+  {
+    "id": "felt-cheonggye",
+    "name": "펠트커피 청계천점",
+    "address": "서울 중구 청계천로 14",
+    "lat": 37.5687921,
+    "lng": 126.9788346,
+    "dong": "무교",
+    "signature": {
+      "name": "바닐라라떼",
+      "evidenceCount": 3,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "플랫화이트"
+      },
+      {
+        "name": "라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://polle.com/place/31fkQm/%ED%8E%A0%ED%8A%B8%20%EC%BB%A4%ED%94%BC",
+        "title": "펠트 커피 청계천점 | Polle",
+        "kind": "review",
+        "note": "청계천로 14 주소가 일치하며 바닐라라떼를 강하게 추천하는 방문 후기가 확인된다."
+      },
+      {
+        "url": "https://www.siksinhot.com/P/1302216",
+        "title": "펠트커피 청계천점 | 식신",
+        "kind": "menu",
+        "note": "바닐라라떼를 실제 메뉴로 수록하고 플랫화이트·라떼와 함께 좋은 평가를 받는 핵심 커피로 설명한다."
+      },
+      {
+        "url": "https://www.greysuitcase.net/blog/2026/4/16/felt-coffee-cheonggyecheon",
+        "title": "FELT Coffee Cheonggyecheon",
+        "kind": "review",
+        "note": "2026년 4월 방문 기록에서 청계천로 14 주소와 영업시간을 확인할 수 있다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "2026년 영업이 확인된다. 공식 SIGNATURE 표기는 없지만 주소가 일치하는 복수 후기·메뉴 자료에서 바닐라라떼가 반복적으로 좋은 평가를 받아 유지했다."
+    }
+  },
+  {
+    "id": "gamu",
+    "name": "가무",
+    "address": "서울 중구 명동4길 16",
+    "lat": 37.5629934,
+    "lng": 126.9836157,
+    "dong": "명동",
+    "signature": {
+      "name": "비엔나커피",
+      "evidenceCount": 3,
+      "label": "아인슈페너"
+    },
+    "candidates": [
+      {
+        "name": "파르페"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.arenakorea.com/news/articleView.html?idxno=71448",
+        "title": "올드 커피 스토리 — 가무",
+        "kind": "review",
+        "note": "비엔나커피로 큰 인기를 얻었으며 현재도 메뉴판 맨 위를 차지한다고 설명한다."
+      },
+      {
+        "url": "https://tabling.co.kr/place/677cc7bc66de5f06987549e6",
+        "title": "가무 | 테이블링",
+        "kind": "menu",
+        "note": "명동4길 16 주소와 비엔나커피 메뉴 및 대표 메뉴 표기를 확인할 수 있다."
+      },
+      {
+        "url": "http://rc3.kr/index.php/%EB%AA%85%EB%8F%99%EC%9D%98_%EB%8B%A4%EB%B0%A9%EA%B3%BC_%EC%A3%BC%EC%A0%90:_%EB%AC%B8%ED%99%94%EC%9D%98_%EC%82%B0%EC%8B%A4",
+        "title": "명동의 다방과 주점: 문화의 산실",
+        "kind": "review",
+        "note": "주소를 대조하며 명동 비엔나커피 유행의 시작점이자 대표 메뉴라고 명시한다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "2026년 7월 방문 정보가 남아 있어 영업 중으로 판단했다. 비엔나커피는 메뉴판 위치, 역사성, 복수 출처의 대표메뉴 표기가 모두 일치한다."
+    }
+  },
+  {
+    "id": "gabedo-namdaemun",
+    "name": "가배도 남대문시장점",
+    "address": "서울 중구 남대문로 11",
+    "lat": 37.5609821,
+    "lng": 126.9770217,
+    "dong": "회현",
+    "signature": {
+      "name": "코르타도",
+      "evidenceCount": 3,
+      "label": "코르타도"
+    },
+    "candidates": [
+      {
+        "name": "초코 티라미수"
+      },
+      {
+        "name": "가배 아메리카노"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://app.passorder.co.kr/normal/eefc0fb4-c474-4072-97b1-9bc423739203/menus",
+        "title": "가배도 남대문시장점 메뉴·가격 | 패스오더",
+        "kind": "menu",
+        "note": "공식 주문 메뉴에서 코르타도, 가배 아메리카노와 초코 티라미수를 실제 주문 메뉴로 확인했다."
+      },
+      {
+        "url": "https://www.awesomble.com/ko/Aosdin/kr-seoul-gabaedo-namdaemun/",
+        "title": "가배도 남대문시장점 — 1910년대 한옥상가 카페",
+        "kind": "review",
+        "note": "현장 메뉴판 기준 코르타도를 대표, 티라미수를 인기 메뉴로 분류한다."
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=7tlS8D5fFES7",
+        "title": "가배도 남대문시장점 | 다이닝코드",
+        "kind": "menu",
+        "note": "가배도 블렌드는 아메리카노·에스프레소·라떼에 사용하는 원두임을 보여준다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "2026년 영업 정보가 확인된다. ‘가배도 블렌드’는 독립 주문 메뉴가 아니라 여러 음료에 사용하는 하우스 원두이므로 signature에서 제외했다. 체인 지점 고유 대표는 확인되지 않아 현장 대표 표기가 있는 코르타도를 채택했다."
+    }
+  },
+  {
+    "id": "gyedanjip",
+    "name": "계단집",
+    "address": "서울 중구 퇴계로6길 35",
+    "lat": 37.556955,
+    "lng": 126.9792633,
+    "dong": "회현",
+    "signature": {
+      "name": "계단집 양갱 3종",
+      "evidenceCount": 2,
+      "label": "디저트"
+    },
+    "candidates": [
+      {
+        "name": "계단집 블렌딩 핸드드립"
+      },
+      {
+        "name": "아인슈페너"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.awesomble.com/ko/Aosdin/kr-seoul-hoehyeon-gyedanjip/",
+        "title": "계단집 — 회현동 골목 카페",
+        "kind": "menu",
+        "note": "퇴계로6길 35 주소와 현재 영업시간을 제시하며 양갱 3종을 가장 인기 있는 시그니처로 명시한다."
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=WN4JxSt4Vgs7",
+        "title": "계단집 | 다이닝코드",
+        "kind": "menu",
+        "note": "계단집 양갱을 시그니처라고 명시하고 계단집 블렌딩을 별도의 드립 메뉴로 수록한다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "영업 중이다. 계단집 블렌딩은 유효한 추천 메뉴지만, 복수 메뉴 자료가 레몬·말차·팥 수제 양갱 3종을 명시적으로 시그니처라고 표시하므로 대표메뉴를 교체했다."
+    }
+  },
+  {
+    "id": "piknic",
+    "name": "카페피크닉",
+    "address": "서울 중구 퇴계로 100",
+    "lat": 37.5602055,
+    "lng": 126.9829284,
+    "dong": "회현",
+    "signature": null,
+    "candidates": [],
+    "evidence": [
+      {
+        "url": "https://map.naver.com/p/entry/place/1052789166?placePath=%2Fmenu",
+        "title": "피크닉 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "공식 주소 퇴계로6가길 30 매장의 등록 메뉴 8개에 대표 배지가 없다."
+      },
+      {
+        "url": "https://piknic.kr/",
+        "title": "피크닉 piknic",
+        "kind": "official",
+        "note": "공식 주소는 서울 중구 퇴계로6가길 30이며 데이터의 퇴계로 100과 일치하지 않는다."
+      }
+    ],
+    "verification": {
+      "confidence": "unverified",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버에 있는 피크닉은 퇴계로6가길 30이며 사장님 대표 메뉴도 없다. 데이터 주소 퇴계로 100과는 다른 집이다."
+    }
+  },
+  {
+    "id": "lisar-yaksu",
+    "name": "리사르커피 약수",
+    "address": "서울 중구 다산로8길 16-7",
+    "lat": 37.5524696,
+    "lng": 127.0104555,
+    "dong": "약수",
+    "signature": {
+      "name": "카페 오네로소",
+      "evidenceCount": 2,
+      "label": "아인슈페너"
+    },
+    "candidates": [
+      {
+        "name": "카페 피에노"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://leesarcoffee.com/_yacksustore/",
+        "title": "이달의 매장, 12월 리사르 약수점",
+        "kind": "official",
+        "note": "약수점 담당자가 오네로소를 가장 인기 있는 메뉴로 명시했다."
+      },
+      {
+        "url": "https://polle.com/tmdgns1223/posts/2985",
+        "title": "리사르 커피 약수 방문 후기",
+        "kind": "review",
+        "note": "다산로8길 16-7 주소와 오네로소·피에노 판매를 확인했다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 카페 피에노보다 공식 약수점 인터뷰 근거가 있는 카페 오네로소가 타당하다. 약수점은 현재 운영 중이다."
+    }
+  },
+  {
+    "id": "upside-yaksu",
+    "name": "업사이드커피 약수점",
+    "address": "서울 중구 동호로10길 42",
+    "lat": 37.5557156,
+    "lng": 127.0125698,
+    "dong": "약수",
+    "signature": {
+      "name": "해방촌 커피",
+      "evidenceCount": 2,
+      "label": "기타"
+    },
+    "candidates": [
+      {
+        "name": "약수에바나나"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://keepmovingbaby.com/60",
+        "title": "업사이드커피 약수 신당동 힙당동 카페추천",
+        "kind": "review",
+        "note": "동호로10길 42 주소를 확인하며 해방촌 커피를 브랜드 시그니처 중 하나로 명시했다."
+      },
+      {
+        "url": "https://polle.com/place/15Ibyc/%EC%97%85%EC%82%AC%EC%9D%B4%EB%93%9C%20%EC%BB%A4%ED%94%BC",
+        "title": "업사이드 커피 약수점",
+        "kind": "review",
+        "note": "해방촌 커피를 크림을 올린 플랫화이트로 소개하고 긍정적으로 평가했다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "일반 카페라떼보다 지점 메뉴판과 후기에서 시그니처로 확인되는 해방촌 커피가 적합하다. 2026년 영업 기록이 확인된다."
+    }
+  },
+  {
+    "id": "secondhand-brewers",
+    "name": "세컨핸드브루어스",
+    "address": "서울 중구 다산로24길 15",
+    "lat": 37.557934,
+    "lng": 127.013457,
+    "dong": "청구",
+    "signature": {
+      "name": "드립커피",
+      "evidenceCount": 1,
+      "label": "핸드드립"
+    },
+    "candidates": [
+      {
+        "name": "보늬밤 마차 치즈케이크"
+      },
+      {
+        "name": "초콜릿 가나슈 케이크"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://map.naver.com/p/entry/place/1545155689?placePath=%2Fmenu",
+        "title": "세컨핸드 브루어스 네이버 플레이스 메뉴",
+        "kind": "official",
+        "note": "사장님이 등록한 대표 메뉴는 보늬밤 마차 치즈케이크, 초콜릿 가나슈 케이크, 드립커피/필터커피/브루잉커피다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스 주소 다산로24길 15과 일치한다. 대표 배지가 세 개라 음료인 드립커피를 대표로 두고, 케이크 둘을 후보로 뒀다."
+    }
+  },
+  {
+    "id": "kohiru-yaksu",
+    "name": "코히루 약수",
+    "address": "서울 중구 동호로14길 23",
+    "lat": 37.5566538,
+    "lng": 127.0106454,
+    "dong": "약수",
+    "signature": {
+      "name": "테린느",
+      "evidenceCount": 2,
+      "label": "디저트"
+    },
+    "candidates": [
+      {
+        "name": "쇼콜라 테린느"
+      },
+      {
+        "name": "말차 테린느"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.modootoday.com/shop/item.php?it_id=1742535889",
+        "title": "코히루 김현정 셰프 말차·쇼콜라 테린느",
+        "kind": "review",
+        "note": "코히루 운영자가 테린느를 대표메뉴로 설명하고 약수 2호점 운영을 확인했다."
+      },
+      {
+        "url": "https://tabling.co.kr/place/677cd74666de5f0698927764",
+        "title": "코히루 약수",
+        "kind": "menu",
+        "note": "동호로14길 23 주소, 현재 영업시간과 밤 테린느 등 판매 메뉴를 확인했다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "아포가토는 판매 메뉴일 뿐 대표 근거가 없다. 운영자가 직접 대표메뉴로 지목한 테린느가 타당하며 약수점은 현재 영업 정보가 확인된다."
+    }
+  },
+  {
+    "id": "mailroom-sindang",
+    "name": "메일룸 신당",
+    "address": "서울 중구 퇴계로83길 10-7",
+    "lat": 37.5662501,
+    "lng": 127.0188899,
+    "dong": "황학",
+    "signature": {
+      "name": "블루베리 버번",
+      "evidenceCount": 3,
+      "label": "에스프레소"
+    },
+    "candidates": [
+      {
+        "name": "아란치아 그라니따"
+      },
+      {
+        "name": "메일라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.siksinhot.com/theme/magazine/5461",
+        "title": "특별한 컨셉이 재미있는 이색 신상 카페 5곳",
+        "kind": "review",
+        "note": "퇴계로83길 10-7의 메일룸 신당에서 블루베리 버번을 시그니처로 명시했다."
+      },
+      {
+        "url": "https://mixingk.tistory.com/536",
+        "title": "신당동 메일룸, 다양한 에스프레소를 즐기다",
+        "kind": "review",
+        "note": "블루베리 버번의 구성과 독특한 맛을 설명하며 재주문 메뉴로 추천했다."
+      },
+      {
+        "url": "https://booking.naver.com/booking/6/bizes/1214292",
+        "title": "네이버 예약 메일룸 신당",
+        "kind": "official",
+        "note": "주소와 현재 운영, 에스프레소 칵테일을 매장 특화 메뉴로 안내한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "돌체라떼는 메뉴 존재만 확인된다. 반복적으로 시그니처·추천 근거가 확인되는 블루베리 버번이 더 타당하다."
+    }
+  },
+  {
+    "id": "orologi-sindang",
+    "name": "올로지에스프레소 신당",
+    "address": "서울 중구 황학동 701",
+    "lat": 37.5661381,
+    "lng": 127.0209046,
+    "dong": "황학",
+    "signature": {
+      "name": "에스프레소",
+      "evidenceCount": 2,
+      "label": "에스프레소"
+    },
+    "candidates": [
+      {
+        "name": "사케라또"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://info.koreacharts.com/tour/3329779/contents.html",
+        "title": "올로지 메뉴 및 이용 안내",
+        "kind": "search",
+        "note": "한국관광공사 기반 정보에서 대표메뉴를 에스프레소로 명시했다."
+      },
+      {
+        "url": "https://www.daangn.com/kr/local-profile/%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C%EC%98%AC%EB%A1%9C%EC%A7%80-kmxj8xccirtc/",
+        "title": "에스프레소올로지",
+        "kind": "official",
+        "note": "퇴계로87길 3-8·황학동 701 주소와 에스프레소 전문점 설명을 확인했다."
+      }
+    ],
+    "verification": {
+      "confidence": "high",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 에스프레소 판정이 맞다. 2026년 갱신 정보와 정상 영업 인허가 기록도 확인된다."
+    }
+  },
+  {
+    "id": "bangatkan",
+    "name": "커피방앗간",
+    "address": "서울 중구 서소문로6길 34",
+    "lat": 37.5595913,
+    "lng": 126.9672256,
+    "dong": "중림",
+    "signature": {
+      "name": "아메리카노",
+      "evidenceCount": 2,
+      "label": "아메리카노"
+    },
+    "candidates": [
+      {
+        "name": "카페라떼"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://polle.com/place/2wK8jv/%EC%BB%A4%ED%94%BC%20%EB%B0%A9%EC%95%97%EA%B0%84",
+        "title": "커피 방앗간 중림동",
+        "kind": "review",
+        "note": "서소문로6길 34 주소의 서로 다른 방문 후기에서 아메리카노를 반복적으로 호평했다."
+      },
+      {
+        "url": "https://www.siksinhot.com/P/996869",
+        "title": "커피방앗간 중림동",
+        "kind": "menu",
+        "note": "주소를 대조했으며 아메리카노를 중심 메뉴로 소개한다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "북촌의 동명 매장과 다른 중림동 매장이다. 공식 시그니처 표시는 없지만 독립 출처의 반복 추천으로 현재 아메리카노를 유지할 수 있다."
+    }
+  },
+  {
+    "id": "coffee-villa",
+    "name": "커피빌라",
+    "address": "서울 중구 중림동 61-1",
+    "lat": 37.5591684,
+    "lng": 126.9685181,
+    "dong": "중림",
+    "signature": null,
+    "candidates": [
+      {
+        "name": "핸드드립"
+      },
+      {
+        "name": "수제 자몽차"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://map.naver.com/p/entry/place/79025367?placePath=%2Fhome",
+        "title": "커피빌라 네이버 플레이스",
+        "kind": "official",
+        "note": "청파로 445(중림동 61-1) 매장은 확인되지만 메뉴 탭이 없어 대표 배지 여부를 볼 수 없다."
+      }
+    ],
+    "verification": {
+      "confidence": "unverified",
+      "checkedAt": "2026-08-19",
+      "notes": "네이버 플레이스에 메뉴 탭이 없어 사장님 대표 메뉴를 확인하지 못했다."
+    }
+  },
+  {
+    "id": "gotgan-euljiro",
+    "name": "커피곳간 을지로3가점",
+    "address": "서울 중구 을지로 129",
+    "lat": 37.566275,
+    "lng": 126.9926501,
+    "dong": "을지로",
+    "signature": {
+      "name": "카페라떼",
+      "evidenceCount": 2,
+      "label": "라떼"
+    },
+    "candidates": [
+      {
+        "name": "아메리카노"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://app.passorder.co.kr/normal/609a097a-98da-4261-b206-e6bf22027d70",
+        "title": "커피곳간 을지로3가점",
+        "kind": "menu",
+        "note": "공식 주문 페이지가 매장을 '고소한 라떼 맛집'으로 소개한다."
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=U1p6adMQQ2bZ",
+        "title": "커피곳간 을지로3가점",
+        "kind": "review",
+        "note": "을지로3가역 지하상가 매장 후기에서 카페라떼를 추천 메뉴로 명시했다."
+      }
+    ],
+    "verification": {
+      "confidence": "medium",
+      "checkedAt": "2026-08-19",
+      "notes": "현재 카페라떼 판정은 유지 가능하다. 다만 조사 출처의 주소는 을지로 지하 106으로 나타나 데이터의 을지로 129와 불일치하므로 주소 재확인이 필요하다."
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "auth": {
+    "authorizedDomains": [
+      "localhost",
+      "coffee-map-1ab36.firebaseapp.com",
+      "coffee-map-1ab36.web.app"
+    ],
+    "providers": {
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "아바라",
+        "supportEmail": "710devji@gmail.com",
+        "authorizedRedirectUris": [
+          "https://coffee-map-1ab36.firebaseapp.com/__/auth/handler",
+          "http://localhost",
+          "http://127.0.0.1"
+        ]
+      }
+    }
+  }
+}
