@@ -93,7 +93,7 @@ export function CafeSearch({ cafes, onOpenChange, onSelectCafe }: CafeSearchProp
     <div ref={rootRef} className="pointer-events-auto relative w-full">
       <form
         role="search"
-        className="flex h-11 w-full min-w-0 items-center gap-2 rounded-full bg-surface/95 px-3.5 shadow-chip ring-1 ring-ink/8 backdrop-blur-md"
+        className="flex h-11 w-full min-w-0 items-center gap-2 rounded-full border-2 border-ink bg-surface/95 px-3.5 shadow-chip backdrop-blur-md"
         onSubmit={(event) => event.preventDefault()}
       >
         <label htmlFor="cafe-search" className="sr-only">
@@ -277,14 +277,14 @@ function SearchIcon() {
     <svg
       viewBox="0 0 20 20"
       fill="none"
-      className="h-4 w-4 shrink-0 text-faint"
+      className="h-4 w-4 shrink-0 text-ink"
       aria-hidden
     >
-      <circle cx="8.5" cy="8.5" r="5.25" stroke="currentColor" strokeWidth="1.6" />
+      <circle cx="8.5" cy="8.5" r="5.25" stroke="currentColor" strokeWidth="2" />
       <path
         d="M12.5 12.5 16 16"
         stroke="currentColor"
-        strokeWidth="1.6"
+        strokeWidth="2"
         strokeLinecap="round"
       />
     </svg>

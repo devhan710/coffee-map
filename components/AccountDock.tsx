@@ -39,11 +39,9 @@ export function AccountDock({ cafes, onSelectCafe }: AccountDockProps) {
     return (
       <section className={shell} aria-hidden>
         <div className="flex h-10 items-center justify-between gap-3">
-          <div className="h-4 w-40 rounded-full bg-wash" />
+          <div className="h-4 w-48 rounded-full bg-wash" />
           <div className="h-10 w-16 rounded-full bg-wash" />
         </div>
-        <div className="mt-3 h-14 rounded-2xl bg-wash" />
-        <div className="mt-2 h-14 rounded-2xl bg-wash" />
       </section>
     );
   }
@@ -63,12 +61,6 @@ export function AccountDock({ cafes, onSelectCafe }: AccountDockProps) {
             로그인
           </button>
         </div>
-        <DockRow label="내 음료" onClick={requestDrinks}>
-          <span className="truncate text-muted">아직 안 골랐어요</span>
-        </DockRow>
-        <DockRow label="찜한 카페" onClick={requestLogin}>
-          <span className="truncate text-muted">카페를 찜하면 여기 모여요</span>
-        </DockRow>
       </section>
     );
   }
