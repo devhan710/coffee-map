@@ -25,9 +25,9 @@ export function AccountDock({ cafes, onSelectCafe }: AccountDockProps) {
   } = useTaste();
   const drinkLabels = useMemo(
     () =>
-      MENU_FILTERS.filter((filter) => preferredDrinkIds.includes(filter.id)).map(
-        (filter) => filter.label,
-      ),
+      MENU_FILTERS.filter((filter) =>
+        preferredDrinkIds.some((id) => id === filter.id),
+      ).map((filter) => filter.label),
     [preferredDrinkIds],
   );
   const favorites = useMemo(
