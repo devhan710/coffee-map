@@ -7,7 +7,8 @@
     "authorizedDomains": [
       "localhost",
       "coffee-map-1ab36.firebaseapp.com",
-      "coffee-map-1ab36.web.app"
+      "coffee-map-1ab36.web.app",
+      "vanilla-latte-map.vercel.app"
     ],
     "providers": {
       "googleSignIn": {

@@ -12,14 +12,14 @@ import {
 } from "react";
 import {
   onAuthStateChanged,
-  signInWithPopup,
   signOut,
   type User,
 } from "firebase/auth";
 import {
+  completeGoogleRedirect,
   getFirebaseAuth,
-  googleProvider,
   isFirebaseConfigured,
+  signInWithGoogle,
 } from "@/lib/firebase/client";
 import { isDrinkId, type DrinkId } from "@/lib/taste";
 import {
@@ -53,7 +53,31 @@ type TasteContextValue = {
   dismissDrinks: () => void;
 };
 
-const TasteContext = createContext<TasteContextValue | null>(null);
+const PENDING_KEY = "abara:auth-pending";
+
+function writePending(action: PendingAction) {
+  try {
+    if (action) sessionStorage.setItem(PENDING_KEY, JSON.stringify(action));
+    else sessionStorage.removeItem(PENDING_KEY);
+  } catch {
+    /* ignore */
+  }
+}
+
+function takePending(): PendingAction {
+  try {
+    const raw = sessionStorage.getItem(PENDING_KEY);
+    sessionStorage.removeItem(PENDING_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw) as PendingAction;
+    if (!parsed || typeof parsed !== "object" || !("type" in parsed)) return null;
+    if (parsed.type === "favorite" && typeof parsed.cafeId === "string") return parsed;
+    if (parsed.type === "drinks") return parsed;
+    return null;
+  } catch {
+    return null;
+  }
+}
 
 function loginMessage(error: unknown) {
   const code =
@@ -65,7 +89,10 @@ function loginMessage(error: unknown) {
     return null;
   }
   if (code === "auth/unauthorized-domain") {
-    return "이 주소에서는 아직 못 들어와요";
+    return "이 주소는 아직 로그인을 못 열어요";
+  }
+  if (code === "auth/popup-blocked") {
+    return "팝업이 막혀 있어요. 다시 눌러 주세요";
   }
   return "로그인하지 못했어요";
 }
@@ -113,6 +140,14 @@ export function TasteProvider({ children }: { children: ReactNode }) {
       return;
     }
 
+    void completeGoogleRedirect(auth).catch((error) => {
+      const message = loginMessage(error);
+      if (message) {
+        setLoginHint(message);
+        setLoginOpen(true);
+      }
+    });
+
     const unsub = onAuthStateChanged(auth, async (next) => {
       setUser(next);
       if (!next) {
@@ -146,6 +181,7 @@ export function TasteProvider({ children }: { children: ReactNode }) {
     const current = userRef.current;
     if (!current) {
       pendingRef.current = { type: "favorite", cafeId };
+      writePending(pendingRef.current);
       setLoginHint(null);
       setLoginOpen(true);
       return;
@@ -183,6 +219,7 @@ export function TasteProvider({ children }: { children: ReactNode }) {
     if (userRef.current) return;
 
     pendingRef.current = null;
+    writePending(null);
     setLoginHint(null);
     setLoginOpen(true);
   }, [configured]);
@@ -196,6 +233,7 @@ export function TasteProvider({ children }: { children: ReactNode }) {
 
     if (!userRef.current) {
       pendingRef.current = { type: "drinks" };
+      writePending(pendingRef.current);
       setLoginHint(null);
       setLoginOpen(true);
       return;
@@ -227,8 +265,9 @@ export function TasteProvider({ children }: { children: ReactNode }) {
     }
 
     setLoginHint(null);
+    writePending(pendingRef.current);
     try {
-      await signInWithPopup(auth, googleProvider());
+      await signInWithGoogle(auth);
       setLoginOpen(false);
     } catch (error) {
       const message = loginMessage(error);
@@ -238,9 +277,10 @@ export function TasteProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     if (!user || loadedUid !== user.uid) return;
-    const pending = pendingRef.current;
+    const pending = pendingRef.current ?? takePending();
     if (!pending) return;
     pendingRef.current = null;
+    writePending(null);
     if (pending.type === "favorite") requestFavorite(pending.cafeId);
     if (pending.type === "drinks") setDrinksOpen(true);
   }, [loadedUid, requestFavorite, user]);
@@ -271,6 +311,7 @@ export function TasteProvider({ children }: { children: ReactNode }) {
       signOutUser,
       dismissLogin: () => {
         pendingRef.current = null;
+        writePending(null);
         setLoginOpen(false);
         setLoginHint(null);
       },
