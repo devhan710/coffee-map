@@ -8,7 +8,8 @@
       "localhost",
       "coffee-map-1ab36.firebaseapp.com",
       "coffee-map-1ab36.web.app",
-      "vanilla-latte-map.vercel.app"
+      "vanilla-latte-map.vercel.app",
+      "coffee-map-git-main-han-a256.vercel.app"
     ],
     "providers": {
       "googleSignIn": {

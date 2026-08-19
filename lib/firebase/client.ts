@@ -63,10 +63,8 @@ export function googleProvider() {
 
 function canUsePopup() {
   if (typeof window === "undefined") return false;
-  const ua = navigator.userAgent;
-  if (/iPhone|iPad|iPod|Android/i.test(ua)) return false;
-  if (/KAKAOTALK|Instagram|FBAN|FBAV|NAVER|Line\//i.test(ua)) return false;
-  return true;
+  const host = window.location.hostname;
+  return host === "localhost" || host === "127.0.0.1";
 }
 
 function popupFailed(error: unknown) {
