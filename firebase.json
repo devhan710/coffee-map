@@ -17,6 +17,8 @@
         "supportEmail": "710devji@gmail.com",
         "authorizedRedirectUris": [
           "https://coffee-map-1ab36.firebaseapp.com/__/auth/handler",
+          "https://vanilla-latte-map.vercel.app",
+          "https://vanilla-latte-map.vercel.app/__/auth/handler",
           "http://localhost",
           "http://127.0.0.1"
         ]

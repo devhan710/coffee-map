@@ -86,9 +86,10 @@ function loginMessage(error: unknown) {
     error && typeof error === "object" && "code" in error
       ? String(error.code)
       : "";
+  const detail = code.replace(/^auth\//, "");
 
   if (code === "auth/popup-closed-by-user" || code === "auth/cancelled-popup-request") {
-    return null;
+    return "로그인 창이 닫혔어요. 다시 눌러 주세요";
   }
   if (code === "auth/unauthorized-domain") {
     return "이 주소는 아직 로그인을 못 열어요";
@@ -96,7 +97,7 @@ function loginMessage(error: unknown) {
   if (code === "auth/popup-blocked") {
     return "팝업이 막혀 있어요. 다시 눌러 주세요";
   }
-  return "로그인하지 못했어요";
+  return detail ? `로그인하지 못했어요 (${detail})` : "로그인하지 못했어요";
 }
 
 export function TasteProvider({ children }: { children: ReactNode }) {

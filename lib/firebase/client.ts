@@ -63,19 +63,19 @@ export function googleProvider() {
 
 function canUsePopup() {
   if (typeof window === "undefined") return false;
-  const host = window.location.hostname;
-  return host === "localhost" || host === "127.0.0.1";
+  return Boolean(window.open);
+}
+
+function errorCode(error: unknown) {
+  return error && typeof error === "object" && "code" in error
+    ? String(error.code)
+    : "";
 }
 
 function popupFailed(error: unknown) {
-  const code =
-    error && typeof error === "object" && "code" in error
-      ? String(error.code)
-      : "";
+  const code = errorCode(error);
   return (
     code === "auth/popup-blocked" ||
-    code === "auth/popup-closed-by-user" ||
-    code === "auth/cancelled-popup-request" ||
     code === "auth/operation-not-supported-in-this-environment"
   );
 }
