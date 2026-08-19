@@ -53,6 +53,8 @@ type TasteContextValue = {
   dismissDrinks: () => void;
 };
 
+const TasteContext = createContext<TasteContextValue | null>(null);
+
 const PENDING_KEY = "abara:auth-pending";
 
 function writePending(action: PendingAction) {
